@@ -32,7 +32,7 @@ pip install -r requirements.txt
 
 ### 获取模型文件
 模型文件（TorchScript 格式）已包含在仓库的 models/ 目录中，文件名为 tooth_segmentation_model.pt。
-你也可以从 Releases 页面下载最新版本。
+
 
 ⚠️ 注意：模型文件为基础版本，仅供演示和测试使用。如需商用或定制训练，请联系作者。
 
