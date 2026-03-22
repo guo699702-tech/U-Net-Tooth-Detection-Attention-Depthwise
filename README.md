@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 医学牙齿分割演示（Attention + Depthwise U-Net）
 
 **商业化项目** —— 已部署于医院内部系统
@@ -18,3 +19,7 @@
 ```bash
 pip install -r requirements.txt
 python inference/gradio_demo.py
+=======
+# U-Net-Tooth-Detection-Attention-Depthwise
+基于注意力机制 + 深度可分离卷积改进的 U-Net 模型，用于医学牙齿 X 光检测
+>>>>>>> 47da0c97acefa08936fda776d16f62dfc78ae8e9
