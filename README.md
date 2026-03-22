@@ -22,7 +22,8 @@
 
 ### 获取模型文件
 模型文件（TorchScript 格式）已包含在仓库的 models/ 目录中，文件名为 tooth_segmentation_model.pt。
-⚠️ 注意：模型文件**仅为基础版本，供演示和测试使用**。如需商用或定制训练，请联系作者。
+
+⚠️ 注意：模型文件**仅为基础版本，供演示和测试使用**。
 
 ### Dataset Information
 - The model is trained on a **proprietary in-house clinical dataset**.
