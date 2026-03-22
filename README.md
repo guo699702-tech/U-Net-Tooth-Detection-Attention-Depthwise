@@ -12,18 +12,24 @@
 - 包含多种临床场景：正常牙列、缺牙/种植、拥挤重叠、金属修复体伪影、低对比度/模糊片等。
 - 所有数据均为真实口腔全景X光片（panoramic radiograph），经过专业医生标注，确保高质量。
 - 为保护隐私与数据安全，数据集不公开，仅用于模型内部训练。
-  
+
+#### 数据集部分展示
+
+<img width="640" height="320" alt="C-186" src="https://github.com/user-attachments/assets/d77ca24c-f220-4e7e-8807-6d4033cc796e" />
+<img width="640" height="320" alt="A-10" src="https://github.com/user-attachments/assets/69afff9b-454a-4296-abae-97f325c25b47" />
+<img width="640" height="320" alt="A-16" src="https://github.com/user-attachments/assets/c7649901-40cf-473d-963f-baf8c47d2893" />
+
+
 ### 获取模型文件
 模型文件（TorchScript 格式）已包含在仓库的 models/ 目录中，文件名为 tooth_segmentation_model.pt。
 ⚠️ 注意：模型文件**仅为基础版本，供演示和测试使用**。如需商用或定制训练，请联系作者。
 
-
-### 性能指标（测试集）
-- Dice 系数：0.91+
-- IoU：0.93+
-- Sensitivity：0.92+
-- Specificity：0.96+
-- Accuracy：0.9645
+### Dataset Information
+- The model is trained on a **proprietary in-house clinical dataset**.
+- Covers full age range: children, adolescents, adults, and elderly.
+- Includes diverse clinical scenarios: normal dentition, missing teeth/implants, crowding/overlapping, metal artifacts, low-contrast/blurry images, etc.
+- All images are real panoramic dental X-rays, professionally annotated by dentists.
+- The dataset is not publicly released to protect patient privacy and data security.
 
 ### 性能指标（独立测试集）
 
@@ -66,5 +72,7 @@ python inference.py --model models/tooth_segmentation_model.pt --image test.png 
 
 ### 图片实例展示
 <img width="1470" height="244" alt="4d5e08f9-957d-416b-85c7-976522cf2749" src="https://github.com/user-attachments/assets/49f667cd-d2d8-4ad2-8f59-b886bb476b18" />
+
+<img width="1484" height="254" alt="image" src="https://github.com/user-attachments/assets/d8b44824-4ac1-48fa-b985-9d21c74e5649" />
 
 
